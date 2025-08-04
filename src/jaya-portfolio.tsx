@@ -44,8 +44,7 @@ const Portfolio = () => {
       description: "Live inventory platform enabling 500+ users to trade produce directly with real-time messaging and secure payments.",
       features: ["40% backend performance improvement", "25% revenue boost via pricing engine", "100+ transactions/month with zero fraud"],
       tech: ["ReactJS", "Node.js", "Express", "MongoDB"],
-      github: "https://github.com/JayaRam2884/farmers-bazaar",
-      live: "#",
+      github: "https://github.com/JayaRam2884/FarmersBazaar",
       gradient: "from-blue-500 to-blue-700"
     },
     {
@@ -53,8 +52,7 @@ const Portfolio = () => {
       description: "Intuitive travel planner with dynamic filtering, attracting 1,000+ users with enhanced performance.",
       features: ["50% load time reduction", "200+ destinations via Google Maps API", "35% engagement boost"],
       tech: ["HTML", "CSS", "JavaScript", "Google Maps API"],
-      github: "https://github.com/JayaRam2884/vihara-yatra",
-      live: "#",
+      github: "https://github.com/JayaRam2884/ViharaYatra",
       gradient: "from-blue-400 to-blue-600"
     },
     {
@@ -62,8 +60,7 @@ const Portfolio = () => {
       description: "Mobile-first React Native app with skill-tagged job suggestions and live API feeds.",
       features: ["40% retention lift", "10+ job sources integration", "60% fluidity boost on low-end devices"],
       tech: ["React Native", "Node.js", "MongoDB", "Reanimated", "Expo"],
-      github: "https://github.com/JayaRam2884/job-path",
-      live: "#",
+      github: "https://github.com/JayaRam2884/JobPath",
       gradient: "from-blue-600 to-blue-800"
     }
   ];
@@ -284,10 +281,6 @@ const Portfolio = () => {
                   <a href={project.github} className="project-link">
                     <Github size={16} />
                     <span>Code</span>
-                  </a>
-                  <a href={project.live} className="project-link">
-                    <ExternalLink size={16} />
-                    <span>Live</span>
                   </a>
                 </div>
               </div>
