@@ -146,7 +146,7 @@ const Portfolio = () => {
             <div className="hero-avatar-ring">
              <div className="hero-avatar-inner">
   <div className="hero-image-wrapper">
-    <img src="../src/assets/my1.jpg" alt="Profile" className="hero-profile-image" />
+    <img src="/assets/my1.jpg" alt="Profile" className="hero-profile-image" />
   </div>
 </div>
 
